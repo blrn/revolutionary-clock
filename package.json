@@ -1,0 +1,24 @@
+{
+  "name": "revolutionary-clock",
+  "version": "1.0.0",
+  "description": "For Penelope <3 I love you forever and always",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --config webpack.config.js --open --host 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "p5": "^1.9.0",
+    "repubdate": "^1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/blrn/revolutionary-clock"
+  },
+  "author": "Artemis Cook",
+  "license": "ISC"
+}
